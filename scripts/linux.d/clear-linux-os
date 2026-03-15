@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # these are the Clear Linux specific build functions
 
 # Additional bundles for OrcaSlicer

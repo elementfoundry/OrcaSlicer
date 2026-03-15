@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # these are the Arch Linux specific build functions
 
 # Additional Dev packages for OrcaSlicer

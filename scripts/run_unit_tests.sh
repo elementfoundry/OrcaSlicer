@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # This file is made to support the unit tests workflow.
 # It should only require the directories build/tests, scripts/, and tests/ to function,

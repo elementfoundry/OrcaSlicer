@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 REQUIRED_DEV_PACKAGES=(
     autoconf

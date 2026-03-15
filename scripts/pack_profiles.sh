@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Check if required arguments are provided
 if [ "$#" -lt 3 ]; then
