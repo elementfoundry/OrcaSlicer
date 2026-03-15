@@ -1,0 +1,146 @@
+{
+    "type": "machine",
+    "name": "fdm_endorphin_awd_common",
+    "from": "system",
+    "instantiation": "false",
+    "inherits": "fdm_klipper_common",
+    "printer_technology": "FFF",
+    "printable_area": [
+        "0x0",
+        "235x0",
+        "235x235",
+        "0x235"
+    ],
+    "printable_height": "310",
+    "emit_machine_limits_to_gcode": "1",
+    "resonance_avoidance": "0",
+    "min_resonance_avoidance_speed": "70",
+    "max_resonance_avoidance_speed": "120",
+    "machine_max_speed_x": [
+    "800"
+    ],
+    "machine_max_speed_y": [
+        "800"
+    ],
+    "machine_max_speed_z": [
+        "30"
+    ],
+    "machine_max_speed_e": [
+        "100"
+    ],
+    "machine_max_acceleration_x": [
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "20000"
+    ],
+    "machine_max_acceleration_z": [
+        "500"
+    ],
+    "machine_max_acceleration_e": [
+        "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "20000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "5000"
+    ],
+    "machine_max_jerk_x": [
+        "20"
+    ],
+    "machine_max_jerk_y": [
+        "20"
+    ],
+    "machine_max_jerk_z": [
+        "5"
+    ],
+    "machine_max_jerk_e": [
+        "10"
+    ],
+    "extruder_colour": [
+        "#FCE94F"
+    ],
+    "silent_mode": "0",
+    "machine_min_extruding_rate": [
+        "0"
+    ],
+    "machine_min_travel_rate": [
+        "0"
+    ],
+    "max_layer_height": [
+        "0.32"
+    ],
+    "min_layer_height": [
+        "0.08"
+    ],
+    "extruder_clearance_radius": "65",
+    "extruder_clearance_height_to_rod": "36",
+    "extruder_clearance_height_to_lid": "140",
+    "nozzle_diameter": [
+        "0.4"
+    ],
+    "printer_settings_id": "",
+    "printer_variant": "0.4",
+    "single_extruder_multi_material": "1",
+    "change_filament_gcode": "",
+    "print_host": "u3d.local:7127",
+    "print_host_webui": "u3d.local",
+    "extruder_offset": [
+        "0x0"
+    ],
+    "retraction_length": [
+        "0.8"
+    ],
+    "retract_restart_extra": [
+        "0"
+    ],
+    "retraction_speed": [
+        "40"
+    ],
+    "deretraction_speed": [
+        "40"
+    ],
+    "retraction_minimum_travel": [
+        "1"
+    ],
+    "retract_when_changing_layer": [
+        "0"
+    ],
+    "wipe": [
+        "0"
+    ],
+    "wipe_distance": [
+        "2"
+    ],
+    "retract_before_wipe": [
+        "70%"
+    ],
+    "retract_lift_enforce": [
+        "All Surfaces"
+    ],
+    "z_hop_types": [
+        "Auto Lift"
+    ],
+    "z_hop": [
+        "0.2"
+    ],
+    "travel_slope": [
+        "3"
+    ],
+    "retract_lift_above": [
+        "0"
+    ],
+    "retract_lift_below": [
+        "0"
+    ],
+    "retract_restart_extra_toolchange": [
+        "0"
+    ],
+    "retract_length_toolchange": [
+        "2"
+    ],
+    "nozzle_volume": [
+        "0"
+    ]
+}

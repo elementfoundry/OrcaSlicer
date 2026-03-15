@@ -1,0 +1,40 @@
+{
+    "name": "Template",
+    "version": "01.07.00.02",
+    "force_update": "0",
+    "description": "Template configurations",
+    "machine_model_list": [
+      {
+        "name": "Endorphin AWD",
+        "sub_path": "machine/Endorphin AWD.json"
+      }
+    ],
+    "process_list": [
+      {
+        "name": "0.20mm Standard @Endorphin AWD",
+        "sub_path": "process/0.20mm Standard @Endorphin AWD.json"
+      }
+    ],
+    "machine_list": [
+      {
+        "name": "fdm_klipper_common",
+        "sub_path": "machine/fdm_klipper_common.json"
+      },
+      {
+        "name": "fdm_endorphin_awd_common",
+        "sub_path": "machine/fdm_endorphin_awd_common.json"
+      },
+      {
+        "name": "Endorphin AWD 0.4 nozzle",
+        "sub_path": "machine/Endorphin AWD 0.4 nozzle.json"
+      },
+      {
+        "name": "Endorphin AWD 0.6 nozzle",
+        "sub_path": "machine/Endorphin AWD 0.6 nozzle.json"
+      },
+      {
+        "name": "Endorphin AWD 0.8 nozzle",
+        "sub_path": "machine/Endorphin AWD 0.8 nozzle.json"
+      }
+    ]
+}

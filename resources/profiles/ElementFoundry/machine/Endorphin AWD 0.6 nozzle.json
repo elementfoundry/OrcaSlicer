@@ -1,0 +1,13 @@
+{
+    "type": "machine",
+    "name": "Endorphin AWD 0.6 nozzle",
+    "from": "system",
+    "setting_id": "GM001",
+    "instantiation": "true",
+    "inherits": "fdm_endorphin_awd_common",
+    "printer_model": "Endorphin AWD",
+    "nozzle_diameter": [
+        "0.6"
+    ],
+    "printer_variant": "0.6"
+}

@@ -1,0 +1,18 @@
+{
+    "type": "machine",
+    "name": "fdm_klipper_common",
+    "from": "system",
+    "instantiation": "false",
+    "printer_technology": "FFF",
+    "gcode_flavor": "klipper",
+    "before_layer_change_gcode": ";BEGIN BEFORE_LAYER_CHANGE GCODE\n;---------------------------------------\n\n;[layer_z]\nG92 E0\n\n;END BEFORE_LAYER_CHANGE GCODE\n;-------------------------------------",
+    "change_extrusion_role_gcode": ";CHANGE EXTRUSION ROLE GCODE",
+    "change_filament_gcode": ";BEGIN CHANGE FILAMENT GCODE\n;----------------------------------\n\nM600\n\n;END CHANGE FILAMENT GCODE\n;--------------------------------",
+    "layer_change_gcode": ";LAYER CHANGE GCODE\n;[layer_z]",
+    "machine_end_gcode": ";BEGIN MACHINE END GCODE\n;-----------------------------\n\nEND_PRINT\n\n;END MACHINE END GCODE\n;---------------------------\n",
+    "machine_pause_gcode": ";BEGIN PAUSE GCODE\n;---------------------\n\nM0\n\n;END PAUSE GCODE\n;-------------------\n",
+    "machine_start_gcode": ";BEGIN MACHINE START GCODE\n;-------------------------------\n\nSTART_PRINT BED_TEMP=[bed_temperature_initial_layer_single] EXTRUDER_TEMP=[nozzle_temperature_initial_layer] MATERIAL=[filament_type] NOZZLE_TYPE=[nozzle_type]\n\n;----------------------------\n;END MACHINE START GCODE",
+    "printing_by_object_gcode": ";PRINTING_BY_OBJECT_GCODE\n",
+    "template_custom_gcode": ";TEMPLATE CUSTOM GCODE",
+    "time_lapse_gcode": ";TIME LAPSE GCODE"
+}

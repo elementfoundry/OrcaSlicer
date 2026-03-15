@@ -1,0 +1,19 @@
+{
+    "type": "machine",
+    "name": "Endorphin AWD 0.8 nozzle",
+    "from": "system",
+    "setting_id": "GM001",
+    "instantiation": "true",
+    "inherits": "fdm_endorphin_awd_common",
+    "printer_model": "Endorphin AWD",
+    "nozzle_diameter": [
+        "0.8"
+    ],
+    "printer_variant": "0.8",
+    "max_layer_height": [
+        "0.6"
+    ],
+    "min_layer_height": [
+        "0.2"
+    ]
+}
