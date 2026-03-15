@@ -14,7 +14,7 @@ if(CMAKE_SYSTEM_NAME STREQUAL "Linux")
     if (FLATPAK)
         set(_wx_debug_postfix "d")
         set(_wx_shared -DwxBUILD_SHARED=ON -DBUILD_SHARED_LIBS:BOOL=ON)
-        set(_wx_flatpak_patch PATCH_COMMAND ${PATCH_CMD} ${CMAKE_CURRENT_LIST_DIR}/0001-flatpak.patch)
+        # set(_wx_flatpak_patch PATCH_COMMAND ${PATCH_CMD} ${CMAKE_CURRENT_LIST_DIR}/0001-flatpak.patch)
     endif ()
 endif()
 
